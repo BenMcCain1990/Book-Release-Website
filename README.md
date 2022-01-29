@@ -9,3 +9,4 @@
 # Acknowledgements
 
 - Google Fonts
+- Font Awesome Icons
