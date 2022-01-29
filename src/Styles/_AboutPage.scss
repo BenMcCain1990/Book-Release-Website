@@ -5,11 +5,15 @@
   margin-top: 160px;
   margin-bottom: 140px;
   margin-left: 180px;
+  margin-right: 180px;
   .aboutheader {
     display: inline-flex;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 20px;
+    h1 {
+      color: rgb(71, 62, 54);
+    }
   }
   .aboutbody {
     display: inline-flex;
@@ -17,11 +21,13 @@
     justify-content: center;
     width: 100%;
     h2 {
-      width: 1180px;
-      line-height: 35px;
+      font-size: 20px;
+      width: 50%;
+      line-height: 25px;
       letter-spacing: 0.5px;
       text-align: justify;
       padding-bottom: 20px;
+      color: rgb(71, 62, 54);
     }
     img {
       width: 300px;
@@ -31,11 +37,13 @@
   .topline {
     border: 3px solid rgb(189, 177, 168);
     width: 100%;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
   }
-  .bottomlinediv {
+  .bottomline {
     display: flex;
-    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    width: 75%;
     background: blue;
   }
 }

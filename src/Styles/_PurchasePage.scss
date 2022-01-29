@@ -1,0 +1,73 @@
+.purchasepage {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 160px;
+  margin-bottom: 120px;
+  width: 75%;
+  h1 {
+    margin-bottom: 20px;
+  }
+  hr {
+    border: 3px solid rgb(189, 177, 168);
+    width: 100%;
+    margin-bottom: 80px;
+  }
+}
+.purchasebody {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  img {
+    max-height: 400px;
+  }
+}
+.purchaselinks {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 40%;
+  margin-top: 10px;
+  margin-left: 80px;
+  h2 {
+    letter-spacing: 1.5px;
+    font-size: 30px;
+    color: rgb(71, 62, 54);
+  }
+  p {
+    margin-top: 40px;
+    width: 80%;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  a {
+    font-size: 16px;
+    text-decoration: none;
+    color: rgb(71, 62, 54);
+    margin-bottom: 10px;
+    letter-spacing: 1.5px;
+  }
+  a:hover {
+    font-size: 18px;
+    text-decoration: underline;
+  }
+  .purchaseheader {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    h1 {
+      color: rgb(71, 62, 54);
+    }
+  }
+}

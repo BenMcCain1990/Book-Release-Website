@@ -7,7 +7,7 @@ import Nav from "./Components/Nav";
 import Footer from "./Components/Footer";
 //import pages
 import About from "./Pages/About";
-import Blog from "./Pages/Blog";
+import Purchase from "./Pages/Purchase";
 import Contact from "./Pages/Contact";
 import Home from "./Pages/Home";
 import Explore from "./Pages/Explore";
@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
-          <Route exact path="/blog" element={<Blog />} />
+          <Route exact path="/purchase" element={<Purchase />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route exact path="/home" element={<Home />} />
           <Route exact path="/explore" element={<Explore />} />

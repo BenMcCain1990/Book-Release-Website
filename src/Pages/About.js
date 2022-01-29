@@ -23,10 +23,8 @@ const About = () => {
           reprehenderit odio ipsum, atque fuga soluta corporis. Rerum omnis nisi
           alias, doloribus tempora dolorum velit odio natus laudantium suscipit
           nulla consequuntur in.
+          <hr className="bottomline" />
         </h2>
-      </div>
-      <div className="bottomlinediv">
-        <hr className="bottomline" />
       </div>
     </div>
   );
