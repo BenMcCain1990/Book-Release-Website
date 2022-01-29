@@ -1,0 +1,17 @@
+.explorepage {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 200px;
+  width: 100%;
+  min-height: 900px;
+}
+.explorepage h1 {
+  color: black;
+  padding-bottom: 80px;
+}
+img {
+  max-height: 600px;
+  box-shadow: 0 3px 10px rgb(107, 107, 107);
+}

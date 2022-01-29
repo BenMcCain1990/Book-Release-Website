@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playfair Display", serif;
+  overscroll-behavior: none;
+}
+
+@import "./_Nav";
+@import "./_Footer";
+@import "./_HomePage";
+@import "./_AboutPage";
+@import "./_BlogPage";
+@import "./_ContactPage";
+@import "./_ExplorePage";

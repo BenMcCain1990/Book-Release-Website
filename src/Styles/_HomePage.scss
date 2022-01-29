@@ -1,0 +1,34 @@
+.Body {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 200px;
+  margin-bottom: 120px;
+  width: 100%;
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    p {
+      width: 600px;
+      font-size: 18px;
+      letter-spacing: 1px;
+      text-align: justify;
+    }
+    hr {
+      color: black;
+      width: 75%;
+    }
+  }
+  .Cover {
+    max-height: 500px;
+    margin-left: 180px;
+    box-shadow: 0 3px 10px rgb(107, 107, 107);
+  }
+  .AuthorImg {
+    max-height: 500px;
+    margin-right: 180px;
+    box-shadow: 0 3px 10px rgb(107, 107, 107);
+  }
+}
