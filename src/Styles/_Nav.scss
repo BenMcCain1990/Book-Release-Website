@@ -23,7 +23,8 @@ nav {
   }
   .links a:hover {
     color: white;
-    transition-delay: 0.1s ease;
+    transition-delay: 0.1s;
+    transition-property: color;
   }
   .logo {
     display: flex;

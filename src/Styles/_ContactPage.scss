@@ -1,0 +1,101 @@
+.contactpage {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-left: 180px;
+  margin-right: 180px;
+  margin-top: 160px;
+  margin-bottom: 350px;
+  width: 81.25%;
+  hr {
+    border: 3px solid rgb(189, 177, 168);
+    width: 100%;
+    margin-top: 59px;
+    margin-bottom: 80px;
+  }
+}
+.contactbody {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 100%;
+  h1 {
+    font-size: 20px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  p {
+    text-align: start;
+  }
+  .contactcard {
+    width: 250px;
+  }
+}
+.subscribe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  margin-top: 50px;
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 2px 6px rgb(107, 107, 107);
+}
+.subscribetitle {
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 18px;
+}
+
+.subscribecopy {
+  max-width: 450px;
+  text-align: center;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+.form {
+  margin-bottom: 25px;
+}
+
+.formemail {
+  padding: 20px 25px;
+  border: 1px solid #cad3db;
+  width: 431px;
+  font-size: 18px;
+  color: #0f121f;
+}
+
+.formemail:focus {
+  outline: 1px solid rgb(107, 107, 107);
+}
+
+.formbutton {
+  background: rgb(189, 177, 168);
+  padding: 20px;
+  border: none;
+  width: 244px;
+  height: 65px;
+  font-size: 18px;
+  color: white;
+  box-shadow: 0 3px 5px rgb(107, 107, 107);
+}
+
+.formbutton:hover {
+  box-shadow: 0 6px 5px rgb(107, 107, 107);
+}
+
+.notice {
+  width: 345px;
+  .noticecopy {
+    margin-left: 10px;
+  }
+}
