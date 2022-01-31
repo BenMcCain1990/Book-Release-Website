@@ -27,9 +27,6 @@ const Body = () => {
         <hr />
         <br />
       </div>
-      <div>
-        <img className="AuthorImg" src={kiley} alt="Author's Portrait" />
-      </div>
     </div>
   );
 };

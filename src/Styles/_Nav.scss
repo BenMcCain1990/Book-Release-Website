@@ -35,10 +35,37 @@ nav {
     color: white;
     font-size: 45px;
     text-decoration: none;
-    font-family: "Cookie", cursive;
   }
   .logo a:hover {
     color: black;
     transition-delay: 0.1s ease;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    .links a {
+      font-size: 16px;
+    }
+    .logo a {
+      font-size: 18px;
+    }
+  }
+}
+
+@media screen and (max-width: 320px) {
+  nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 40px;
+    .links a {
+      font-size: 12px;
+    }
+    .logo a {
+      font-size: 14px;
+    }
   }
 }

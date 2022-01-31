@@ -16,10 +16,18 @@ const Footer = () => {
         </h4>
       </div>
       <div className="icons">
-        <FontAwesomeIcon className="icon" icon={faInstagram} />
-        <FontAwesomeIcon className="icon" icon={faFacebook} />
-        <FontAwesomeIcon className="icon" icon={faPinterestP} />
-        <FontAwesomeIcon className="icon" icon={faTwitter} />
+        <a href="https://www.instagram.com/" target="_blank">
+          <FontAwesomeIcon className="icon" icon={faInstagram} />
+        </a>
+        <a href="https://www.facebook.com/" target="_blank">
+          <FontAwesomeIcon className="icon" icon={faFacebook} />
+        </a>
+        <a href="https://www.pinterest.com/" target="_blank">
+          <FontAwesomeIcon className="icon" icon={faPinterestP} />
+        </a>
+        <a href="https://www.twitter.com/" target="_blank">
+          <FontAwesomeIcon className="icon" icon={faTwitter} />
+        </a>
       </div>
     </div>
   );

@@ -13,10 +13,18 @@ const Blog = () => {
         <div className="purchaselinks">
           <h2>Book Title</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-            nostrum nihil, pariatur repellat blanditiis recusandae, possimus
-            laborum minima accusantium quod, voluptatum eum veritatis
-            voluptatem? Quos ut at nobis nihil nesciunt!
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro at
+            fuga eum esse delectus voluptatum dolorum quo aliquid dignissimos
+            non, quod debitis, incidunt beatae officia reiciendis accusantium
+            magni exercitationem cum quaerat qui veniam. Tenetur excepturi omnis
+            deleniti impedit eum voluptas, modi numquam, dolore maiores
+            similique praesentium possimus laboriosam hic delectus iste
+            consequuntur. Nulla natus, commodi, ipsam reprehenderit officiis
+            assumenda, cum ex molestias autem eos tempore aliquam quasi
+            recusandae libero nihil repellendus et obcaecati adipisci mollitia
+            esse ipsum quia odit perferendis. Cum assumenda reprehenderit minima
+            labore. Provident rem ipsum aliquam dolorem quia asperiores ea
+            reprehenderit, nisi, quidem consequuntur, adipisci in illum?
           </p>
           <div className="links">
             <a href="https://www.amazon.com/" target="_blank">

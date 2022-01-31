@@ -7,36 +7,51 @@ const Contact = () => {
       <div className="contactbody">
         <div className="contactcard">
           <h1>PUBLICIST:</h1>
-          <h2>Publicist Name</h2>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Inventore
-            omnis porro quae? Fugit reprehenderit quisquam molestiae aliquid
-            aut, quos nostrum.
-          </p>
+          <h2>Gayle Jones</h2>
+          <ul>
+            <li>Publishing Company</li>
+            <li>555 Main Street</li>
+            <li>Suite 100</li>
+            <li>Kansas City, MO 11111</li>
+          </ul>
           <br />
-          <p>Publicist Contact Info</p>
+          <ul>
+            <li>phone:</li>
+            <li>email:</li>
+            <li>website url</li>
+          </ul>
         </div>
         <div className="contactcard">
           <h1>AGENT:</h1>
-          <h2>Agent Name</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit
-            exercitationem, laudantium saepe cum impedit corrupti aliquam! At
-            facere pariatur expedita.
-          </p>
+          <h2>Essie Harris</h2>
+          <ul>
+            <li>Company</li>
+            <li>555 Main Street</li>
+            <li>Suite 100</li>
+            <li>Kansas City, MO 11111</li>
+          </ul>
           <br />
-          <p>Agent Contact Info</p>
+          <ul>
+            <li>phone:</li>
+            <li>email:</li>
+            <li>website url</li>
+          </ul>
         </div>
         <div className="contactcard">
           <h1>SPEAKING ENGAGEMENTS:</h1>
-          <h2>Agent Name</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
-            maiores maxime explicabo, totam eos dolorum cum facilis ad
-            accusantium magni!
-          </p>
+          <h2>Robyn Osborne</h2>
+          <ul>
+            <li>Management Company</li>
+            <li>555 Main Street</li>
+            <li>Suite 100</li>
+            <li>Kansas City, MO 11111</li>
+          </ul>
           <br />
-          <p>Speaking Agent Contact Info</p>
+          <ul>
+            <li>phone:</li>
+            <li>email:</li>
+            <li>website url</li>
+          </ul>
         </div>
       </div>
       <div className="subscribe">
