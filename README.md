@@ -1,4 +1,4 @@
-# Wesbite for Book Release.
+# Website for Book Release.
 
 # Built With
 
